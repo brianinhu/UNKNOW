@@ -11,5 +11,5 @@ public class Distrito {
 
     private int iddistrito;
     private String nombre;
-    private int habitantes;
+    private float habitantes;
 }

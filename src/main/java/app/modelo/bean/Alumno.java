@@ -9,11 +9,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Alumno {
 
-    private int codigo;
+    private int idalumno;
+    private String codigo;
     private String nombre;
     private String apaterno;
     private String amaterno;
-    private char sexo;
+    private String sexo;
     private float promedio;
     private int iddistrito;
 }
